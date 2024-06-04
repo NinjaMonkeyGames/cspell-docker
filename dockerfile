@@ -1,0 +1,21 @@
+# IF ANY CHANGES ARE MADE TO THIS FILE THE DOCKER CONTAINER ON DOCKERHUB MUST ALSO BE UPDATED WITH THE NEW BUILD!
+
+# USE ALPINE LINUX O/S AS BASE IMAGE
+
+FROM alpine:latest
+
+# SET THE WORKING DIRECTORY FOR THE CONTAINER
+
+WORKDIR /app
+
+# INSTALL 'Node.js'' AND NPM
+
+RUN apk add --no-cache nodejs npm
+
+# INSTALL 'Stylelint' GLOBALLY
+
+RUN npm install -g cspell
+
+# Include cspell.config.yaml CONFIGURATION FILE IN DOCKER
+
+COPY cspell.config.yaml ./cspell.config.yaml
