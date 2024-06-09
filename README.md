@@ -81,7 +81,7 @@ This project uses a sequential versioning system.
 | 0.0.0.0        | Base files included.                                                                                |
 | 0.0.0.1        | Aligned project structure with other linters in the project.                                        |
 | 0.0.0.2        | Updated GitHub issue link to the correct location. Added avatar images.                             |
-
+| 0.0.0.3        | Updated GitHub issue link to the correct location.                                                  |
 ---
 
 ## Contact information ##
@@ -95,7 +95,7 @@ If you have any problems with the repository or have any suggestions please cont
 
 You may also contact us via our [website](https://ninjamonkeygames.com).
 
-Any bugs should be raised as an [issue](https://github.com/NinjaMonkeyGames/shellcheck-docker/issues) on GitHub.
+Any bugs should be raised as an [issue](https://github.com/NinjaMonkeyGames/cspell-docker/issues) on GitHub.
 
 ---
 

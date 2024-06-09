@@ -7,7 +7,7 @@ jobs:                                                                     # Init
     runs-on: ubuntu-latest                                                # Specify the type of virtual machine to use (Ubuntu latest version)
 
     container:                                                            # Initialise container
-      image: monkeyknuckles/cspell                                        # Use a Docker container with the hadonlint image
+      image: monkeyknuckles/cspell                                        # Use a Docker container with the cspell image
 
     steps:                                                                # List of steps to execute in the job
       - name: Checkout code                                               # Step name: Checkout code from the repository
