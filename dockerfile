@@ -2,20 +2,17 @@
 
 # USE ALPINE LINUX O/S AS BASE IMAGE
 
-FROM alpine:latest
+FROM alpine:3.20.0
+
+# INSTALL NODE AND CSPELL
+
+RUN apk add --no-cache nodejs=20.13.1-r0 npm=10.8.0-r0 && \
+    npm install -g cspell@8.8.4
 
 # SET THE WORKING DIRECTORY FOR THE CONTAINER
 
 WORKDIR /app
 
-# INSTALL 'Node.js'' AND NPM
-
-RUN apk add --no-cache nodejs npm
-
-# INSTALL 'Stylelint' GLOBALLY
-
-RUN npm install -g cspell
-
-# Include cspell.config.yaml CONFIGURATION FILE IN DOCKER
+# INCLUDE cspell.config.yaml IN DOCKER BUILD
 
 COPY cspell.config.yaml ./cspell.config.yaml
