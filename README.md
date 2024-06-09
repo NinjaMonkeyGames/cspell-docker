@@ -67,6 +67,8 @@ See links below for more information about Cspell and Alpine Linux.
 | dockerfile                            |   1   | Information on how to build docker.                                  |
 | README.md                             |   1   | Contains information about the project.                              |
 | LICENSE                               |   1   | Repository license agreement.                                        |
+| avatar.png                            |   1   | Personal avatar for (Daniel Mallet) internal company use.            |
+| logo.png                              |   1   | Company logo.                                                        |
 
 ---
 
@@ -78,6 +80,7 @@ This project uses a sequential versioning system.
 |----------------|-----------------------------------------------------------------------------------------------------|
 | 0.0.0.0        | Base files included.                                                                                |
 | 0.0.0.1        | Aligned project structure with other linters in the project.                                        |
+| 0.0.0.2        | Updated GitHub issue link to the correct location. Added avatar images.                             |
 
 ---
 
@@ -92,7 +95,7 @@ If you have any problems with the repository or have any suggestions please cont
 
 You may also contact us via our [website](https://ninjamonkeygames.com).
 
-Any bugs should be raised as an [issue](https://github.com/NinjaMonkeyGames/markdownlint-cli2-docker/issues) on GitHub.
+Any bugs should be raised as an [issue](https://github.com/NinjaMonkeyGames/shellcheck-docker/issues) on GitHub.
 
 ---
 
