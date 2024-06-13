@@ -2,15 +2,15 @@
 
 ## What is this repository for? ##
 
-The purpose of this repository is to maintain control over versions of cspell. This maintains uniformity-
-when enforcing coding standards and formatting rules. This allows for easier upgrades and prevents newer versions from
-breaking the pipeline.
+The purpose of this repository is to maintain control over versions of CSpell. This maintains uniformity when enforcing
+coding standards and formatting rules. This allows for easier upgrades and prevents newer versions from breaking the
+pipeline.
 
 ---
 
 ## Configuration information ##
 
-There is a 'cspell.config.yaml' file containing the cspell configuration in the root of the project directory. You can
+There is a 'cspell.config.yaml' file containing the CSpell configuration in the root of the project directory. You can
 use the following YAML line to copy this into your project directory.
 
 ```shell
@@ -23,7 +23,7 @@ Alternately you can use the following command to use your own configuration file
 cspell . --color --language-id en-GB --config cspell.config.yml
 ```
 
-See links below for more information about Cspell and Alpine Linux.
+See links below for more information about CSpell and Alpine Linux.
 
 ---
 
@@ -42,8 +42,8 @@ See links below for more information about Cspell and Alpine Linux.
 
   * **Alpine source pull address:**   docker pull alpine:3.20.0
 
-  * **Alpine source landing page:**   <https://hub.docker.com/_/alpine>
-  * **Cspell:**                       <https://github.com/streetsidesoftware/cspell>
+  * **Website:**             <https://cspell.org>
+  * **GitHub CSpell:**       <https://github.com/streetsidesoftware/cspell>
   * **VSC Plugin:**          <https://marketplace.visualstudio.com/items?itemName=streetsidesoftware.code-spell-checker>
 
 ---
@@ -53,7 +53,7 @@ See links below for more information about Cspell and Alpine Linux.
 * Alpine Linux              v3.20.0
 * Node                      v20.13.1
 * NPM                       v10.8.0
-* Cspell                    v8.8.4
+* CSpell                    v8.8.4
 
 ---
 
@@ -61,8 +61,9 @@ See links below for more information about Cspell and Alpine Linux.
 
 | File Or Folder Name:                  | Files | Description Of File Or Folder Contents                               |
 |---------------------------------------|-------|----------------------------------------------------------------------|
-| > docker-fail                         |   49  | Contains examples of every possible docker error.                    |
-| cspell.config.yaml.yaml               |   1   | Contains dockerfile rule configuration.                              |
+| .cspell                               |   1   | List of exceptions for spell check.                                  |
+| cspell.config.yaml                    |   1   | Contains CSpell configuration.                                       |
+| > .git                                |   53  | Contains git configuration files.                                    |
 | > .github > workflows > pipeline.yml  |   1   | Spell checks all files in docker.                                    |
 | dockerfile                            |   1   | Information on how to build docker.                                  |
 | README.md                             |   1   | Contains information about the project.                              |
@@ -82,6 +83,8 @@ This project uses a sequential versioning system.
 | 0.0.0.1        | Aligned project structure with other linters in the project.                                        |
 | 0.0.0.2        | Updated GitHub issue link to the correct location. Added avatar images.                             |
 | 0.0.0.3        | Updated GitHub issue link to the correct location.                                                  |
+| 0.0.0.4        | Internal adjustment to make the project structure consistent across all repositories in the project.|
+
 ---
 
 ## Contact information ##
